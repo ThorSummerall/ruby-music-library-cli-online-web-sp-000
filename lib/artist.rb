@@ -30,4 +30,9 @@ attr_accessor :name, :artist, :genre
   def songs
     @songs
   end
+
+  def add_song
+    if song.artist == nil
+      song.self = artist
+  end
 end
