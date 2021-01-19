@@ -3,8 +3,9 @@ attr_accessor :name, :artist, :genre
 
 @@all = []
 
-  def initialize(name)
+  def initialize(name, artist = nil)
     @name = name
+    self.artist = artist unless artist = nil
   end
 
   def self.all
