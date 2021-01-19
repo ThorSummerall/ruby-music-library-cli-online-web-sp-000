@@ -20,6 +20,8 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.create(name)
-    Song.new(name).save
+    song = Song.new(name)
+    song.save 
+    save
   end
 end
