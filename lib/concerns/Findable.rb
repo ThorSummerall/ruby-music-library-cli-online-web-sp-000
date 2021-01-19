@@ -13,13 +13,3 @@ module Concerns::Findable
     end
   end
 end
-
-
-#def self.find_or_create_by_name(name)
-#  the_song = Song.find_by_name(name)
-#  if the_song == nil
-#    Song.create(name)
-#  else
-#    the_song
-#  end
-#end
