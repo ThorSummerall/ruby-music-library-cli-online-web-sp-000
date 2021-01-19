@@ -12,7 +12,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.destroy_all
-    @@all = []
+    @@all.clear
   end
 
   def save
