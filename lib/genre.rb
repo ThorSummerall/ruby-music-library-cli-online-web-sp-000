@@ -25,4 +25,8 @@ attr_accessor :name, :artist, :genre
     genre.save
     genre
   end
+
+  def songs
+    @songs
+  end
 end
