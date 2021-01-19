@@ -21,5 +21,6 @@ attr_accessor :name, :artist, :genre
 
   def self.create(name)
     Song.new(name)
+    name.save
   end
 end
