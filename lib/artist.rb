@@ -25,4 +25,9 @@ attr_accessor :name, :artist, :genre
     artist.save
     artist
   end
+
+  ### song association stuff
+  def songs
+    @songs
+  end
 end
