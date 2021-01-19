@@ -22,7 +22,7 @@ class MusicLibraryController
 
       input = gets.chomp
 
-      case input 
+      case input
       when 'list songs'
         list_songs
       end
