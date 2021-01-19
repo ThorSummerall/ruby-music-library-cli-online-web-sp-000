@@ -16,7 +16,7 @@ attr_accessor :name, :artist, :genre
     @@all = []
   end
 
-  def save 
+  def save
     @@all << self
   end
 end
