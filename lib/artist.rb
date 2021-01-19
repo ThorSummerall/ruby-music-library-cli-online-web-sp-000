@@ -35,7 +35,7 @@ attr_accessor :name, :artist, :genre
     if song.artist == nil
       song.artist = self
     end
-    if @songs.include?(song) == false 
+    if @songs.include?(song) == false
       @songs << song
     end
   end
