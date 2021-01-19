@@ -31,6 +31,10 @@ attr_accessor :name, :artist, :genre
     @songs
   end
 
+  def genres
+    songs.collect{ |songs| songs.genre }.uniq
+  end
+
   def add_song(song)
     if song.artist == nil
       song.artist = self
