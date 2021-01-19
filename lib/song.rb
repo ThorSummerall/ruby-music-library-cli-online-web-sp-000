@@ -18,4 +18,9 @@ attr_accessor :name, :artist, :genre
   def save
     @@all << self
   end
+
+  def self.create(name)
+    initialize(name)
+    save
+  end
 end
