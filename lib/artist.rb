@@ -33,6 +33,6 @@ attr_accessor :name, :artist, :genre
 
   def add_song
     if song.artist == nil
-      song.self = artist
+      song.artist = self
   end
 end
