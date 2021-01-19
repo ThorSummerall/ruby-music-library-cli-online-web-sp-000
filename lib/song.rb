@@ -11,4 +11,8 @@ attr_accessor :name, :artist, :genre
   def self.all
     @@all
   end
+
+  def self.destroy_all 
+    @@all = []
+  end
 end
