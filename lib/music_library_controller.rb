@@ -27,6 +27,8 @@ class MusicLibraryController
           self.list_songs
         when 'list artists'
           self.list_artists
+        when 'list genres'
+          self.list_genres
       end
     end
   end
